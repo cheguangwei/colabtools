@@ -1,9 +1,10 @@
 （
 安装方法在https://segmentfault.com/q/1010000043256864/a-1020000043256866
+
 Colaboratory：如何在本地机器上安装和使用？
-社区维基
-1 发布于2023-01-05
+
 新手上路，请多包涵
+
 Google Colab 非常好用，但我希望我可以完全在本地和离线运行 Colab 笔记本，就像从本地提供的 Jupyter 笔记本一样？
 
 我该怎么做呢？有没有我可以安装的 Colab 软件包？
@@ -19,12 +20,15 @@ Google Colab 非常好用，但我希望我可以完全在本地和离线运行 
 无论我寻找什么，回购协议都 在这里：
 
  git clone https://github.com/googlecolab/colabtools.git
+ 
 cd colabtools
+
 python setup.py install
 
 然后检查你是否安装了它:)
 
  pip list | grep colab
+ 
 google-colab                       0.0.1a1
 
 或者，如果你想要一个轮子（将放在 dist 文件夹中），你应该做
