@@ -19,7 +19,11 @@ Google Colab 非常好用，但我希望我可以完全在本地和离线运行 
 
 无论我寻找什么，回购协议都 在这里：
 
- git clone https://github.com/googlecolab/colabtools.git
+sudo apt-get update
+
+sudo apt-get install python3-setuptools
+
+git clone https://github.com/googlecolab/colabtools.git
  
 cd colabtools
 
@@ -27,7 +31,9 @@ python setup.py install
 
 然后检查你是否安装了它:)
 
- pip list | grep colab
+sudo apt insall python3-pip
+
+pip list | grep colab
  
 google-colab                       0.0.1a1
 
